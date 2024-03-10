@@ -19,8 +19,8 @@ export default {
         "mobile-home": "url('./assets/HomePageGraphic.png')"
       }),
       fontFamily: {
-        dmsans: ["DM Sans", "sans-serif"],
-        montserrat: ["Montserrat", "sans-serif"],
+        adlam: ["ADLaM Display", "system-ui"],
+        advent: ["Advent Pro", "sans-serif"],
       },
       content: {
         evolvetext: "url('./assets/EvolveText.png')",
