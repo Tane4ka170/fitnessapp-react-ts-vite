@@ -4,6 +4,7 @@ import Navbar from "@/components/navbar";
 import Home from "@/components/home";
 import Benefits from "@/components/benefits";
 import OurClasses from "@/components/ourClasses";
+import ContactUs from "@/components/contactUs";
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -25,7 +26,7 @@ function App() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
   return (
-    <div className="app bg- bg-pink-20">
+    <div className="app bg-pink-20">
       <Navbar
         isTopPage={isTopPage}
         selectedPage={selectedPage}
@@ -34,6 +35,7 @@ function App() {
       <Home setSelectedPage={setSelectedPage} />
       <Benefits setSelectedPage={setSelectedPage} />
       <OurClasses setSelectedPage={setSelectedPage} />
+      <ContactUs setSelectedPage={setSelectedPage} />
     </div>
   );
 }
