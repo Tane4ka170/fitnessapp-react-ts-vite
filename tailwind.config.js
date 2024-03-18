@@ -8,15 +8,16 @@ export default {
         "pink-50": "#985b83",
         "pink-100": "#e60d9c",
         "pink-500": "#86085b",
-"primary-100":"#ffffff ",
-"primary-300":"#53cefb ",
-"primary-500":"#3ac7fb",
-"secondary-400":"#f0b2d2 ",
-"secondary-500":"#c85992"
+        "primary-100": "#d7e0fe ",
+        "primary-300": "#53cefb ",
+        "primary-500": "#3ac7fb",
+        "secondary-400": "#f0b2d2 ",
+        "secondary-500": "#c85992",
       },
       backgroundImage: (theme) => ({
-        "gradient-pinkgreen": "linear-gradient(90deg, #c719b1 0%, #46a658 100% )",
-        "mobile-home": "url('./assets/HomePageGraphic.png')"
+        "gradient-pinkgreen":
+          "linear-gradient(90deg, #c719b1 0%, #46a658 100% )",
+        "mobile-home": "url('./assets/HomePageGraphic.png')",
       }),
       fontFamily: {
         adlam: ["ADLaM Display", "system-ui"],
@@ -29,7 +30,7 @@ export default {
         circles: "url('./assets/Circles.png')",
       },
     },
-     screens: {
+    screens: {
       xs: "480px",
       sm: "768px",
       md: "1060px",
